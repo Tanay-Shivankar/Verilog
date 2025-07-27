@@ -1,4 +1,6 @@
 #  Half Adder 
+A Half Adder is a combinational circuit that adds two single-bit binary inputs. It produces a Sum and a Carry output without considering any carry-in.
+
 ---
 
 ##  Truth Table
