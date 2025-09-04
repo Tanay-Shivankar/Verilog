@@ -5,7 +5,7 @@ module ha(A,B,s,carry,Cin);
   always @(*)
     begin
       s=A^B^Cin;
-      carry=A&B|(Cin^(A&B));
+      carry=A&B|(Cin&(A^B));
     end
 endmodule
 module ha_tb;
